@@ -11,7 +11,7 @@ public enum ThemeColor: String, CaseIterable {
     case separator = "theme_separator"
     case danger = "theme_danger"
     case success = "theme_success"
-
+    case test = "them_test"
     /// UIKit：随 `traitCollection` 自动切换
     public var uiColor: UIColor {
         if let registered = ThemeColorRegistry.uiColor(for: rawValue) {
